@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url("58064.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes example {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes example2 {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes example3 {
+    0% {
+        opacity: 0
+    }
+
+    66.6% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.mid {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    text-shadow: 1px 1px 0px #000000, -1px -1px 0px #000000, -1px 1px 0px #000000, 1px -1px 0px #000000;
+    font: bold 50px arial, verdana;
+}
+
+h1 {
+    animation-name: example;
+    animation-duration: 2s;
+}
+h2 {
+    animation-name: example;
+    animation-duration: 2s;
+}
+p {
+    animation-name: example;
+    animation-duration: 2s;
+}
+dl {
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.myDiv {
+    border: 0px outset black;
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.myDiv2 {
+    border: 0px outset black;
+    margin: auto;
+    width: 21.5%;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 255px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
